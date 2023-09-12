@@ -1,5 +1,5 @@
 <h1>Assignment 2</h1>
-<h2>inventory_app</h2>
+<h2>inventory_app ([link](https://hilmy-inventory-app.adaptable.app))</h2>
 
 <p>Nama       : Hilmy Ammar Darmawan</p>
 <p>Kelas      : PBP E</p>
