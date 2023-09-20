@@ -1,4 +1,4 @@
-<h1>Assignment 2</h1>
+<h1>PBP Assignment</h1>
 <h2>inventory_app </h2>
 
 <p>Nama       : Hilmy Ammar Darmawan</p>
@@ -7,6 +7,7 @@
 <p>Kode Asdos : AAA</p>
 <p>Website: https://hilmy-inventory-app.adaptable.app</p>
 
+<h2>Assignment 1</h2>
 <ol>
   
   <li>Untuk mengimplementasikan checklist assignment dengan lebih mudah, saya memanfaatkan aplikasi Google keep dengan memanfaatkan fitur 'Tick Boxes' yang tersedia di handphone pribadi. Selain itu, tentu saja saya tetap melihat tutorial 0 dan 1 agar pemahaman saya terus meningkat dan membantu mengimplentasikan checklist assignment </li>
@@ -27,3 +28,18 @@
   
 </ol>
 
+<h2>Assignment 2</h2>
+<ol>
+  <li>
+    Form POST mengirimkan data ke server tanpa menampilkannya dalam URL sehingga akan lebih aman, cocok untuk data yang sensitif dan data besar. Sementara itu, Form GET mengirim data melalui URL sehingga kurang aman untuk data yang sensitif
+  </li>
+  <li>
+    HTML digunakan untuk menampilkan informasi di browser, bukan untuk melakukan pengiriman/pertukaran data. XML (Extensible Markup Language) menyimpan elemen-elemennya dengan cara yang terstruktur dan mudah dibaca oleh manusia dan mesin, akan tetapi kurang efisien. XML bertujuan untuk melakukan pertukaran data antar berbagai sistem dan platform secara lebih ekstensibel. JSON menyimpan elemennya secara efisien tapi tidak rapi untuk dilihat. JSON umumnya digunakan untuk pertukaran data dalam format yang lebih sederhana dan seringkali digunakan dalam aplikasi web untuk mengirim data antara server dan browser.  
+  </li>
+  <li>
+    JSON adalah format pertukaran data yang sangat ringan dan mudah dibaca serta ditulis oleh manusia. Hal ini membuatnya mudah diterjemahkan dan dibuat oleh komputer. Selain itu, JSON juga memliki format data yang mudah diuraikan sehingga tidak memerlukan kode tambahan untuk penguraian. Hal ini sangat membantu pertukaran data dan hasil layanan website secara lebih cepat
+  </li>
+  <li>
+    Untuk mengimplementasikan checklist assignment dengan lebih mudah, saya memanfaatkan aplikasi Google keep dengan memanfaatkan fitur 'Tick Boxes' yang tersedia di handphone pribadi. Selain itu, tentu saja saya tetap melihat tutorial 2 agar pemahaman saya terus meningkat dan membantu mengimplentasikan checklist assignment
+  </li>
+</ol>
