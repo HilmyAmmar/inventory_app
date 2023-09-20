@@ -1,7 +1,7 @@
 # Create your models here.
 from django.db import models
 
-class Item(models.Model):
+class Product(models.Model):
     name = models.CharField(max_length=255)
     amount = models.IntegerField()
     description = models.TextField()
