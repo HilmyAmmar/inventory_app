@@ -43,3 +43,12 @@
     Untuk mengimplementasikan checklist assignment dengan lebih mudah, saya memanfaatkan aplikasi Google keep dengan memanfaatkan fitur 'Tick Boxes' yang tersedia di handphone pribadi. Selain itu, tentu saja saya tetap melihat tutorial 2 agar pemahaman saya terus meningkat dan membantu mengimplentasikan checklist assignment
   </li>
 </ol>
+<h3>Hasil akses URL pada postman</h3>
+<ol>
+  <li>GET HTML (http://localhost:8000/)
+    <img src ="C:\Collage\Computer Science\Academics\Semester 3\Pemrograman Berbasis Platform\Tugas\Tugas 3\SS Postman\HTML.png">
+  </li>
+  <li>GET JSON (http://localhost:8000/JSON)
+    <img src ="C:\Collage\Computer Science\Academics\Semester 3\Pemrograman Berbasis Platform\Tugas\Tugas 3\SS Postman\JSON.png">
+  </li>
+</ol>
