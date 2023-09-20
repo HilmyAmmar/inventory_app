@@ -45,10 +45,14 @@
 </ol>
 <h3>Hasil akses URL pada postman</h3>
 <ol>
-  <li>GET HTML (http://localhost:8000/)
-    <img src ="C:\Collage\Computer Science\Academics\Semester 3\Pemrograman Berbasis Platform\Tugas\Tugas 3\SS Postman\HTML.png">
-  </li>
-  <li>GET JSON (http://localhost:8000/JSON)
-    <img src ="C:\Collage\Computer Science\Academics\Semester 3\Pemrograman Berbasis Platform\Tugas\Tugas 3\SS Postman\JSON.png">
-  </li>
+  <li>GET HTML (http://localhost:8000/)</li>
+  <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934668120195/HTML.png">
+  <li>GET JSON (http://localhost:8000/JSON)</li>
+  <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894935209189506/JSON.png">
+  <li>GET JSON by ID (http://localhost:8000/JSON/1)</li>
+  <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934923980850/JSON_by_ID.png">
+  <li>GET XML (http://localhost:8000/XML)</li>
+  <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934328385536/XML.png">
+  <li>GET XML by ID (http://localhost:8000/XML/1)</li>
+  <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934001233930/XML_by_ID.png">
 </ol>
