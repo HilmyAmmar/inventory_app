@@ -7,7 +7,7 @@
 <p>Kode Asdos : AAA</p>
 <p>Website: https://hilmy-inventory-app.adaptable.app</p>
 
-<h2>Assignment 1</h2>
+<h2>Assignment 2</h2>
 <ol>
   
   <li>Untuk mengimplementasikan checklist assignment dengan lebih mudah, saya memanfaatkan aplikasi Google keep dengan memanfaatkan fitur 'Tick Boxes' yang tersedia di handphone pribadi. Selain itu, tentu saja saya tetap melihat tutorial 0 dan 1 agar pemahaman saya terus meningkat dan membantu mengimplentasikan checklist assignment </li>
@@ -28,7 +28,7 @@
   
 </ol>
 
-<h2>Assignment 2</h2>
+<h2>Assignment 3</h2>
 <ol>
   <li>
     Form POST mengirimkan data ke server tanpa menampilkannya dalam URL sehingga akan lebih aman, cocok untuk data yang sensitif dan data besar. Sementara itu, Form GET mengirim data melalui URL sehingga kurang aman untuk data yang sensitif
@@ -55,4 +55,19 @@
   <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934328385536/XML.png">
   <li>GET XML by ID (http://localhost:8000/XML/1)</li>
   <img src = "https://cdn.discordapp.com/attachments/1015998793830895716/1153894934001233930/XML_by_ID.png">
+</ol>
+
+<h2>Assignment 4</h2>
+<ol>
+  <li>UserCreationForm merupakan form yang disediakan oleh Django dalam menangani pembuatan user dalam aplikasi website. Kelebihan dari UserCreationForm antara lain mudah digunakan karena langsung disediakan oleh django serta sudah menyertakan validasi dalam penentuan username dan password. Sedangkan, kekurangan dari UserCreationForm adalah developer harus bekerja ekstra untuk menulis view agar data formulir bisa diproses sehingga akan memperlama durasi pengerjaan.
+  </li>
+  <li>Autentikasi akan memverifikasi identitas user dengan menentukan apakah pengguna tersebut adalah orang yang menklaimnya. Setelah dilakukannya autentikas user, otorisasi akan digunakan selanjutnya untuk menentukan apa yang boleh dilakukan oleh user tersebut. Seperti, informasi dan fitur apa saja yang dapat diakses oleh user tersebut
+  </li>
+  <li>Cookie merupakan sebuah file yang oleh browser dan dapat digunakan oleh server website untuk mengidentifikasi user atau menyimpan informasi tertentu. Dalam konteks aplikasi website django, website akan melakukan holding state dengan session ID yang disimpan sebagai cookie pada komputer klien. Session ID dapat dipetakan ke dalam suatu struktur data pada server untuk menyimpan berbagai macam informasi yang mungkin dibutuhkan. 
+  </li>
+  <li>Data pada cookie umumnya tidak berbahaya dan tidak dapat menginfeksi situs website dengan malware. Namun, jika data cookie jatuh ke tangan yang salah, penyerang dapat mengakses sesi penelusuran, mencuri informasi pribadi, dan menyalahgunakan data cookie user. Ada beberapa resiko yang patut diwaspadai dalam penggunaan cookie, yaitu cookie fraud, Cross-Site Scripting (XSS), Session Fixation, Cross-Site Request Forgery Attack (CSRF), and Cookie Tossing Attack. Pengguna perlu untuk selalu waspada akan resiko - resiko yang ada agar data cookie tidak disalahgunakan oleh orang yang tidak bertanggung jawab. Salah satu cara yang bisa digunakan adalah dengan menggunakan anti-virus atau software" lain yang dapat memberi tahu bahwa website tertentu belum tentu aman dan sebaiknya dihindari.
+  </li>
+  <li>
+    
+  </li>
 </ol>
