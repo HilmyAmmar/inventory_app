@@ -68,6 +68,14 @@
   <li>Data pada cookie umumnya tidak berbahaya dan tidak dapat menginfeksi situs website dengan malware. Namun, jika data cookie jatuh ke tangan yang salah, penyerang dapat mengakses sesi penelusuran, mencuri informasi pribadi, dan menyalahgunakan data cookie user. Ada beberapa resiko yang patut diwaspadai dalam penggunaan cookie, yaitu cookie fraud, Cross-Site Scripting (XSS), Session Fixation, Cross-Site Request Forgery Attack (CSRF), and Cookie Tossing Attack. Pengguna perlu untuk selalu waspada akan resiko - resiko yang ada agar data cookie tidak disalahgunakan oleh orang yang tidak bertanggung jawab. Salah satu cara yang bisa digunakan adalah dengan menggunakan anti-virus atau software" lain yang dapat memberi tahu bahwa website tertentu belum tentu aman dan sebaiknya dihindari.
   </li>
   <li>
-    
+    Dalam mengimplementasikan checklist di atas, ada sejumlah tahapan yang harus saya jalani. Berikut adalah tahapan - tahapannya:
+  <h3>Membuat fungsi register, login, dan logout</h3>
+  <p>Ketiganya kurang lebih memiliki tahapan yang sama. Setelah mengimport sejumlah library bawaan django, saya membuat ketiga fungsi yang berkaitan dengan register, login, dan logout ke views.py. Selanjutkan, saya membuat tiga file html dan menyalin template yang sudah disediakan dan disalin ke file tersebut. Terakhir, saya menambahkan path url ke dalam urlpatterns di urls.py setelah mengimpor fungsi yang telah dibuat sebelumnya. Ini memastikan agar saya bisa mengakses halaman - halaman tertentu dengan tombol yang juga telah ditentukan. </p>
+    <h3>Merestriksi Akses Halaman Main</h3>
+    <p>Tahapan ini perlu dilakukan agar halaman main hanya dapat diakses oleh pengguna yang telah login. Pada views.py, saya mengimport "login_required" dan menambahkan kode "@login_required(login_url='/login')" di atas fungsi show_main yang akan merestriksi halaman main</p>
+    <h3>Menggunakan Data dari Cookies</h3>
+    <p>Pada tahapan ini, saya menggunakan cookies dalam menambahkan data last login dan menampilkannya ke halaman main. Pertama, saya akan mengimport beberapa library pada views.py serta memodifikasi fungsi "login_user" dengan menambahkan cookie bernama "last_login" untuk melihat kapan terakhir kali user melakukan login. Selanjutnya, saya menambahkan "'last_login': request.COOKIES['last_login']" ke dalam variable context. Selain itu, saya juga memodifikasi fungsi "logout_user" untuk menghapus cookie "last_login" disaat user melakukan logout. Tidak lupa, saya juga mengedit file main.html agar data last login dapat ditambilkan pada browser. Setelah selesai, saya membuat akun terlebih dahulu agar bisa lanjut ke halaman selanjutnya. </p>
+    <h3>Menghubungkan Model Product dengan User</h3>
+    <p>Pada tahapan ini, saya menghubungkan setiap produk yang ditambahkan dengan pengguna yang menambahkannya. Hal ini membuat pengguna hanya bisa melihat produk - produk yang telah ditambahkan sendiri. Pada models.py, saya mengimpor "user" dan menambahkan kode "user = models.ForeignKey(User, on_delete=models.CASCADE)" yang bergunakan untuk menghubungkan satu user dengan produk yang telah ditambahkannya melalu sebuah relationship. </p>
   </li>
 </ol>
