@@ -1,11 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Templar Shop</h1>
-
-    <h5>Name: </h5>
-    <p>{{name}}</p>
-
+    <nav class="navbar navbar-expand-lg" style="background-color: #01b6f3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shopping List</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main:create_product' %}">Add Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main:logout' %}">Log out</a>
+                </li>
+                </ul>
+                <span class="navbar-text">
+                {{name}}, {{class}}
+                </span>
+            </div>
+        </div>
+    </nav>
     <h5>Class: </h5>
     <p>{{class}}</p>
 
@@ -21,13 +40,25 @@
         {% comment %} Berikut cara memperlihatkan data produk di bawah baris ini {% endcomment %}
     
         {% for product in products %}
-            <tr>
-                <td>{{product.name}}</td>
-                <td>{{product.amount}}</td>
-                <td>{{product.description}}</td>
-                <td>{{product.price}}</td>
-                <td>{{product.date}}</td>
-            </tr>
+        <tr>
+            <td>{{product.name}}</td>
+            <td>{{product.amount}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.date}}</td>
+            <td>
+                <a href="{% url 'main:edit_product' product.pk %}">
+                    <button>
+                        Edit
+                    </button>
+                </a>
+                <a href="{% url 'main:delete_product' product.pk %}">
+                    <button>
+                        Delete
+                    </button>
+                </a>
+            </td>
+        </tr>
         {% endfor %}
     </table>
     
