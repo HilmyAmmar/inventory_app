@@ -82,6 +82,6 @@
 <h2>Assignment 5</h2>
 <ol>
   <li>(1) Universal Selector berarti memilih semua elemen yang ada pada suatu halaman HTML.(2) Element type selector melakukan styling pada elemen tertentu saja. (3) ID selector menggunakan atribut id pada HTML untuk memilih elemen tertentu. (4) Class Selector digunakan untuk memilih elemen HTML dengan class atribut tertentu. (5) Grouping Selector memilih sejumlah elemen HTML untuk diberikan style yang dipisahkan dengan tanda koma</li>
-  <li>(<title>) membuat judul dari sebuah halaman. (<h1> to <h6>) membuat heading. (<p>) membuat paragraf. (<br>) membuat break line. (<b>) membuat huruf bercetak tebal. (<!--..-->) membuat komentar. (<!DOCTYPE>) menentukan tipe dokumen. (<sub>) membuat teks subskrip seperti penulisan zat kimia. (<sup>) membuat teks superscripted seperti dalam penulisan akar kuadrat. (<img>) membuat gambar. (<input>) membuat sebuah kontrol input. (<button>) membuat sebuah tombol yang dapat di-klik. etc...
+  <li>(<title>) membuat judul dari sebuah halaman. (<h1>) to (<h6>) membuat heading. (<p>) membuat paragraf. (<br>) membuat break line. (<b>) membuat huruf bercetak tebal. (<!--..-->) membuat komentar. (<!DOCTYPE>) menentukan tipe dokumen. (<sub>) membuat teks subskrip seperti penulisan zat kimia. (<sup>) membuat teks superscripted seperti dalam penulisan akar kuadrat. (<img>) membuat gambar. (<input>) membuat sebuah kontrol input. (<button>) membuat sebuah tombol yang dapat di-klik. etc...
   </li>
 </ol>
