@@ -89,6 +89,6 @@
     Padding merupakan jarak antara konten elemen dengan bordernya. Sementara itu, margin merupakan jarak antara border elemen dengan elemen di sekitarnya. 
   </li>
   <li>
-    
+    Tailwind membangun tampilan dengan menggabungkan kelas-kelas utilitas yang telah didefinisikan sebelumnya. Sementara itu, bootstrap menggunakan gaya dan komponen yang telah didefinisikan, yang memiliki tampilan yang sudah jadi dan dapat digunakan secara langsung. Lalu, tailwind CSS memberikan fleksibilitas dan adaptabilitas tinggi terhadap proyek. Sementara itu, bootstrap sering kali menghasilkan tampilan yang lebih konsisten di seluruh proyek karena menggunakan kompomen yang telah didefinisikan. 
   </li>
 </ol>
