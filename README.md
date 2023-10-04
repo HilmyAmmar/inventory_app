@@ -78,3 +78,11 @@
     <p>Pada tahapan ini, saya menghubungkan setiap produk yang ditambahkan dengan pengguna yang menambahkannya. Hal ini membuat pengguna hanya bisa melihat produk - produk yang telah ditambahkan sendiri. Pada models.py, saya mengimpor "user" dan menambahkan kode "user = models.ForeignKey(User, on_delete=models.CASCADE)" yang bergunakan untuk menghubungkan satu user dengan produk yang telah ditambahkannya melalui sebuah relationship. Selanjutnya, saya memodifikasi fungsi "create_product" pada views.py untuk menandakan bahwa objek product dimiliki oleh user yang sedang login. Lalu, saya mengubahkan salah satu kode pada fungsi "show_main" menjadi "products = Product.objects.filter(user=request.user)" sehingga hanya menampilkan objek product yang terasosiasikan dengan pengguna yang sedang login serta menambahkan "request.user.username" agar username pengguna yang login ditampilkan. Setelah semuanya disimpan, saya melakukan migrasi model dengan "python manage.py makemigrations" melalui command line untuk meng-update models py dan mengaplikasikan migrasi tersebut dengan "python manage.py migrate" </p>
   </li>
 </ol>
+
+<h2>Assignment 5</h2>
+<ol>
+  <li>(1) Universal Selector berarti memilih semua elemen yang ada pada suatu halaman HTML.(2) Element type selector melakukan styling pada elemen tertentu saja. (3) ID selector menggunakan atribut id pada HTML untuk memilih elemen tertentu. (4) Class Selector digunakan untuk memilih elemen HTML dengan class atribut tertentu. (5) Grouping Selector memilih sejumlah elemen HTML untuk diberikan style yang dipisahkan dengan tanda koma</li>
+  <li>
+    
+  </li>
+</ol>
