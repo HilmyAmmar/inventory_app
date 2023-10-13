@@ -100,4 +100,8 @@
   <li>Event-driven programming merupakan sebuah konsep pemrograman di mana programa akan merespons event yang terjadi, contohnya ketika kita melakukan hover, klik tombol, dsb. Pada tugas ini, penerapan event driven programming dilakukan pada tombol 'Add Product by Ajax' dimana ketika kita mengklik tombol tersebut, akan muncul modal untuk menambahkan product</li>
   <li>Penggunaan konsep asynchronus programming pada ajax, ada pada bagian script di main.html. Disana, terdapat 2 function yaitu getProduct() dan refreshProduct(). Kedua function ini menerapkan konsep asynchronus terlihat pada kodenya yang terdapat kode 'async' sehingga kedua function akan dijalankan secara bersamaan</li>
   <li>Fetch API lebih ringan, modular, dan modern. Sementara itu, jQuery memiliki kompabilitas silang, API yang mudah dipahami, dan plugin yang telah tersedia. Pilihan antara keduanya bergantung pada proyek yang sedang dikerjakan. Apabila kita mengembangkan sebuah website tidak memerlukan kompabilitas lintas browser, gunakan Fetch API. Jika tidak, gunakan jQuery</li>
+  <li>
+    <h3>Membuat Fungsi untuk Mengembalikan Data JSON</h3>
+    <p>Dalam menerapkan AJAX GET, saya membuat sebuah fungsi yang akan menampilkan data produk pada HTML dengan menggunakan fetch. Pengimplentasiannya dilakukan dengan membuat fungsi get_product_json pada views.py</p>
+  </li>
 </ol>
