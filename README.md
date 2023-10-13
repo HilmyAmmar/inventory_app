@@ -103,5 +103,9 @@
   <li>
     <h3>Membuat Fungsi untuk Mengembalikan Data JSON</h3>
     <p>Dalam menerapkan AJAX GET, saya membuat sebuah fungsi yang akan menampilkan data produk pada HTML dengan menggunakan fetch. Pengimplentasiannya dilakukan dengan membuat fungsi get_product_json pada views.py</p>
+    <h3>Membuat Fungsi untuk Menambahkan Produk dengan AJAX</h3>
+    <p>Dalam menerapkan AJAX POST, saya membuat sebuah fungsi untuk menambahkan produk baru ke basis data dengan AJAX. Pertama, saya akan mengimpor "from django.views.decorators.csrf import csrf_exempt" pada berkas views.py. Setelah itu saya membuat fungsi baru dengan add_product_ajax yang menerima parameter request. Terakhir, saya juga menambahkan @csrf_exempt di atas fungsi ini</p>
+    <h3>Menambahkan Routing Untuk Fungsi get_product_json dan add_product_ajax</h3>
+    
   </li>
 </ol>
