@@ -111,5 +111,7 @@
     <p>Pertama, saya menghapus kode table yang telah dibuat sebelumnya. Lalu, saya menambahkan kode struktur table dengan id tertentu. Selanjutnya, saya membaut block script di bawah berkas dan membuat sebuah fungsi disana dengan nama getProducts. Lalu, saya membuat fungsi refreshProduct() yang digunakan untuk me-refres data produck secara asynchronus atau dalam waktu yang sama. </p>
     <h3>Membuat Modal Sebagai Form untuk Menambahkan Produk</h3>
     <p>Pada tahapan ini, saya menambahkan modal dengan menggunakan bootstrap sebagai page untuk menambahkan product. Tidak lupa, saya juga menambahkan button yang berfungsi untuk menampilkan modal. </p>
+    <h3>Menambahkan Data Product dengan AJAX</h3>
+    <p>Saya membuat fungsi baru pada block script dengan nama addProduct() yang berfungsi untuk menambahkan data berdasarkan input ke basis data secara AJAX. Terakhir, saya menambahkan fungsi onlick pada button "Add Product" pada modal untuk menjalankan fungsi addProduct(). </p>
   </li>
 </ol>
