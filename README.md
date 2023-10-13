@@ -106,6 +106,9 @@
     <h3>Membuat Fungsi untuk Menambahkan Produk dengan AJAX</h3>
     <p>Dalam menerapkan AJAX POST, saya membuat sebuah fungsi untuk menambahkan produk baru ke basis data dengan AJAX. Pertama, saya akan mengimpor "from django.views.decorators.csrf import csrf_exempt" pada berkas views.py. Setelah itu saya membuat fungsi baru dengan add_product_ajax yang menerima parameter request. Terakhir, saya juga menambahkan @csrf_exempt di atas fungsi ini</p>
     <h3>Menambahkan Routing Untuk Fungsi get_product_json dan add_product_ajax</h3>
+    <p>Saya mengimpor dua fungsi yang telah dibuat sebelumnya. Lalu menambahkan path url kedua fungsi tersebut ke dalam urlpatterns.</p>
+    <h3>Menampilkan Data Product dengan Fetch() API</h3>
+    <p>Pertama, saya menghapus kode table yang telah dibuat sebelumnya. Lalu, saya menambahkan kode struktur table dengan id tertentu. Selanjutnya, saya membaut block script di bawah berkas dan membuat sebuah fungsi disana dengan nama getProducts. Lalu, saya membuat fungsi refreshProduct() yang digunakan untuk me-refres data produck secara asynchronus atau dalam waktu yang sama. </p>
     
   </li>
 </ol>
