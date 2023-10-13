@@ -98,5 +98,5 @@
 <ol>
   <li>synchronous programming merupakan sebuah proses pemrograman dimana proses eksekusi program dijalankan secara sequential atau dalam artian, terdapat antrian eksekusi program. Sedangkan, asynchronous programming merupakan sebuah proses pemrograman dimana proses jalannya program dapat dilakukan secara bersamaan tanpa melalui proses antrian </li>
   <li>Event-driven programming merupakan sebuah konsep pemrograman di mana programa akan merespons event yang terjadi, contohnya ketika kita melakukan hover, klik tombol, dsb. Pada tugas ini, penerapan event driven programming dilakukan pada tombol 'Add Product by Ajax' dimana ketika kita mengklik tombol tersebut, akan muncul modal untuk menambahkan product</li>
-  <li></li>
+  <li>Penggunaan konsep asynchronus programming pada ajax, ada pada bagian script di main.html. Disana, terdapat 2 function yaitu getProduct() dan refreshProduct(). Kedua function ini menerapkan konsep asynchronus terlihat pada kodenya yang terdapat kode 'async' sehingga kedua function akan dijalankan secara bersamaan</li>
 </ol>
