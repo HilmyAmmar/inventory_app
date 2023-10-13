@@ -102,11 +102,12 @@ def delete_product(request, id):
 def add_product_ajax(request):
     if request.method == 'POST':
         name = request.POST.get("name")
-        price = request.POST.get("price")
+        amount = request.POST.get("amount")
         description = request.POST.get("description")
+        price = request.POST.get("price")
         user = request.user
 
-        new_product = Product(name=name, price=price, description=description, user=user)
+        new_product = Product(name=name, amount=amount, description=description, price=price, user=user)
         new_product.save()
 
         return HttpResponse(b"CREATED", status=201)
@@ -114,7 +115,7 @@ def add_product_ajax(request):
     return HttpResponseNotFound()
 
 def get_product_json(request):
-    product_item = Product.objects.all();
+    product_item = Product.objects.filter(user=request.user)
     return HttpResponse(serializers.serialize('json', product_item))
 
 def show_xml(request):
@@ -132,5 +133,3 @@ def show_xml_by_id(request, id):
 def show_json_by_id(request, id):
     data = Product.objects.filter(pk=id)
     return HttpResponse(serializers.serialize("json", data), content_type="application/json")
-
-# Ajax stuff
