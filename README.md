@@ -93,3 +93,8 @@
     <p>Gunakan boostrap jika ingin pengembangan cepat dengan komponen yang siap pakai serta pendekatan yang lebih terstruktur. Gunakan tailwind CSS apabila ingin fleksibilitas yang besar untuk melakukan desain kustom.</p>
   </li>
 </ol>
+
+<h2>Assignment 6</h2>
+<ol>
+  <li>synchronous programming merupakan sebuah proses pemrograman dimana proses eksekusi program dijalankan secara sequential atau dalam artian, terdapat antrian eksekusi program. Sedangkan, asynchronous programming merupakan sebuah proses pemrograman dimana proses jalannya program dapat dilakukan secara bersamaan tanpa melalui proses antrian </li>
+</ol>
