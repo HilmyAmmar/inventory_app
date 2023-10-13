@@ -93,3 +93,25 @@
     <p>Gunakan boostrap jika ingin pengembangan cepat dengan komponen yang siap pakai serta pendekatan yang lebih terstruktur. Gunakan tailwind CSS apabila ingin fleksibilitas yang besar untuk melakukan desain kustom.</p>
   </li>
 </ol>
+
+<h2>Assignment 6</h2>
+<ol>
+  <li>synchronous programming merupakan sebuah proses pemrograman dimana proses eksekusi program dijalankan secara sequential atau dalam artian, terdapat antrian eksekusi program. Sedangkan, asynchronous programming merupakan sebuah proses pemrograman dimana proses jalannya program dapat dilakukan secara bersamaan tanpa melalui proses antrian </li>
+  <li>Event-driven programming merupakan sebuah konsep pemrograman di mana programa akan merespons event yang terjadi, contohnya ketika kita melakukan hover, klik tombol, dsb. Pada tugas ini, penerapan event driven programming dilakukan pada tombol 'Add Product by Ajax' dimana ketika kita mengklik tombol tersebut, akan muncul modal untuk menambahkan product</li>
+  <li>Penggunaan konsep asynchronus programming pada ajax, ada pada bagian script di main.html. Disana, terdapat 2 function yaitu getProduct() dan refreshProduct(). Kedua function ini menerapkan konsep asynchronus terlihat pada kodenya yang terdapat kode 'async' sehingga kedua function akan dijalankan secara bersamaan</li>
+  <li>Fetch API lebih ringan, modular, dan modern. Sementara itu, jQuery memiliki kompabilitas silang, API yang mudah dipahami, dan plugin yang telah tersedia. Pilihan antara keduanya bergantung pada proyek yang sedang dikerjakan. Apabila kita mengembangkan sebuah website tidak memerlukan kompabilitas lintas browser, gunakan Fetch API. Jika tidak, gunakan jQuery</li>
+  <li>
+    <h3>Membuat Fungsi untuk Mengembalikan Data JSON</h3>
+    <p>Dalam menerapkan AJAX GET, saya membuat sebuah fungsi yang akan menampilkan data produk pada HTML dengan menggunakan fetch. Pengimplentasiannya dilakukan dengan membuat fungsi get_product_json pada views.py</p>
+    <h3>Membuat Fungsi untuk Menambahkan Produk dengan AJAX</h3>
+    <p>Dalam menerapkan AJAX POST, saya membuat sebuah fungsi untuk menambahkan produk baru ke basis data dengan AJAX. Pertama, saya akan mengimpor "from django.views.decorators.csrf import csrf_exempt" pada berkas views.py. Setelah itu saya membuat fungsi baru dengan add_product_ajax yang menerima parameter request. Terakhir, saya juga menambahkan @csrf_exempt di atas fungsi ini</p>
+    <h3>Menambahkan Routing Untuk Fungsi get_product_json dan add_product_ajax</h3>
+    <p>Saya mengimpor dua fungsi yang telah dibuat sebelumnya. Lalu menambahkan path url kedua fungsi tersebut ke dalam urlpatterns.</p>
+    <h3>Menampilkan Data Product dengan Fetch() API</h3>
+    <p>Pertama, saya menghapus kode table yang telah dibuat sebelumnya. Lalu, saya menambahkan kode struktur table dengan id tertentu. Selanjutnya, saya membaut block script di bawah berkas dan membuat sebuah fungsi disana dengan nama getProducts. Lalu, saya membuat fungsi refreshProduct() yang digunakan untuk me-refres data produck secara asynchronus atau dalam waktu yang sama. </p>
+    <h3>Membuat Modal Sebagai Form untuk Menambahkan Produk</h3>
+    <p>Pada tahapan ini, saya menambahkan modal dengan menggunakan bootstrap sebagai page untuk menambahkan product. Tidak lupa, saya juga menambahkan button yang berfungsi untuk menampilkan modal. </p>
+    <h3>Menambahkan Data Product dengan AJAX</h3>
+    <p>Saya membuat fungsi baru pada block script dengan nama addProduct() yang berfungsi untuk menambahkan data berdasarkan input ke basis data secara AJAX. Terakhir, saya menambahkan fungsi onlick pada button "Add Product" pada modal untuk menjalankan fungsi addProduct(). </p>
+  </li>
+</ol>
